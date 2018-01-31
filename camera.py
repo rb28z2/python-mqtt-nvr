@@ -113,7 +113,7 @@ def main():
 
     # client.on_log = on_log
 
-    client.connect('192.168.3.2', 1883)
+    client.connect(config.mqttIP, 1883)
 
     client.loop_start()
 

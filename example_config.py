@@ -1,3 +1,4 @@
+mqttIP = '192.168.3.2'
 mqttAuth = False
 mqttUser = 'username'
 mqttPass = 'password'
