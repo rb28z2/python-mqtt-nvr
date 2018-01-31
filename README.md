@@ -10,6 +10,7 @@ A python program to handle recording video feeds from IP cameras that integrates
  2. Rename `example_config.py` to `config.py`
  3. Create as many folders as cameras in `config.py` where the folder name is the part immediately before the `//` in each outfile definition
  4. Install the requirements using `pip install -r requirements.txt`
+ 5. Install ffmpeg
  5. Run the script using `python camera.py`
  6. Start recording by sending the payload `record` to the mqtt topic `cameras/nvr/record` and `stop` to the same topic to stop
  
