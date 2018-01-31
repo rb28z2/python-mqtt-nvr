@@ -1,0 +1,7 @@
+*
+!.gitignore
+!camera.py
+!example_config.py
+!README.md
+!LICENSE
+!requirements.txt
